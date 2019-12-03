@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>포지션을 알아보자</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+	.wrap {border: 10px solid red; 
+		max-width: 1000px; margin: 0 auto; position: relative;}
+	.box {width: 200px; height: 200px;}
+	.box1 {background-color: aquamarine; position: absolute; top: 50%; left: 50%; 
+		transform: translate(-50%, -50%);}
+	.box2 {background-color: bisque;}
+	.box3 {background-color: coral;}
+
+
+	@media screen and (max-width: 768px) {
+		.wrap {width: 96%;}
+	}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<img src="../img/architect.jpg" class="img">
+		<!-- <img src="../img/house2.jpg" class="img2"> -->
+		<div class="box box1"></div>
+	</div>
+</body>
+</html>
