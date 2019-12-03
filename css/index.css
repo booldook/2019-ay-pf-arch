@@ -1,0 +1,29 @@
+/* Float */
+nav {background-color: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); padding: 0.5rem 1rem;}
+.logo {float: left; padding: 0.5rem 1rem;}
+.navi-wrap, .navi-bars {float: right;}
+.navi-bars {padding: 0.5rem 1rem; display: none;}
+.navi-wrap > li {float: left; padding: 0.5rem 1rem;}
+.logo:hover, .navi-wrap > li:hover, .navi-bars:hover {background-color: #aaa; cursor: pointer;}
+
+/* 
+pc: 1920px ~ 1281px
+tablet - 가로: 1280px ~769px
+tablet - 세로: 768px ~ 577px
+smart  - 가로: 576px ~ 481px
+smart  - 세로: 480px ~ 320px
+*/
+
+@media screen and (max-width: 1280px) {
+	
+}
+@media screen and (max-width: 768px) {
+	.navi-wrap {display: none;}
+	.navi-bars {display: block;}
+}
+@media screen and (max-width: 576px) {
+	
+}
+@media screen and (max-width: 480px) {
+	
+}

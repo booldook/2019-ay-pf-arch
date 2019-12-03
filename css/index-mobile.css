@@ -1,0 +1,15 @@
+/* Float */
+nav {background-color: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); border: 1px solid red;}
+.logo {float: left; padding: 0.75rem 1.25rem;}
+.navi-wrap {float: right;}
+.navi-wrap > li {float: left;}
+
+@media screen and (min-width: 480px) {
+	
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1024px) {
+
+}
