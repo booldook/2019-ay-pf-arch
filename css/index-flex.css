@@ -1,3 +1,16 @@
+/* 
+CSS에서 꼭 알아야 될 것
+- float
+- flex
+- position - relative/absolute/fixed
+- background
+- transition (애니메이션)
+- transform (변형)
+- animation (애니메이션)
+- media
+*/
+
+
 /* Flex */
 nav {display: flex; justify-content: space-between; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); padding: 0.5rem 1rem;}
 .logo {padding: 0.5rem 1rem;}
@@ -10,7 +23,7 @@ nav {display: flex; justify-content: space-between; background-color: #fff; box-
 /* Banner */
 .banner {height: 80vh; background: url(../img/architect.jpg) no-repeat center top; 
 	background-size: cover; color: #fff; font-weight: bold; display: flex; justify-content: center; align-items: center;}
-.banner > span:first-child {font-size: 5vw; background-color: rgba(0,0,0,0.7); padding: 0.5vw 1.5vw; margin-right: 1vw;}
+.banner > span:first-child {font-size: 5vw; background-color: rgba(0,0,0,0.7); padding: 0.25vw 1vw; margin-right: 1vw;}
 .banner > span:last-child {font-size: 4vw;}
 
 @media screen and (max-width: 1280px) {
